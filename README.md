@@ -1,15 +1,20 @@
-# Customer Segmentation & Sales Dashboard (Power BI)
+# Customer Segmentation Dashboard using Power BI
 
 ## Project Overview
-This project analyzes customer purchasing behavior using the Superstore dataset and segments customers into Low, Medium, and High-value groups.
+This project analyzes customer purchasing behavior using the Superstore dataset and segments customers into:
 
-The dashboard provides business insights into sales performance, profit trends, regional performance, and customer segmentation.
+- Low Value Customers
+- Medium Value Customers
+- High Value Customers
+
+The dashboard provides insights into sales performance, profitability trends, customer distribution, and regional performance.
 
 ## Tools Used
 - Power BI
 - Python (Pandas)
 - Data Cleaning
 - Customer Segmentation
+- DAX Measures
 
 ## Key KPIs Created
 - Total Sales
@@ -18,17 +23,24 @@ The dashboard provides business insights into sales performance, profit trends, 
 - Average Order Value
 - Unique Customers
 
-## Dashboard Insights
-- West region generated highest sales
-- Technology category contributed maximum revenue
-- Medium-value customers form largest segment
-- High-value customers generate strongest profit contribution
+## Dashboard Features
+- Customer Segmentation Analysis
+- Sales Trend Over Time
+- Regional Performance Analysis
+- Category-wise Sales Distribution
+- Interactive Filters (Region, Category, Segment)
+
+## Business Insights
+- Medium-value customers form the largest segment
+- Technology category contributes highest revenue
+- West region generates maximum sales
+- High-value customers contribute strongest profit share
 
 ## Files Included
-- Clean dataset
-- Segmented dataset
+- clean_superstore.csv
+- customer_segmented.csv
 - Power BI dashboard (.pbix)
-- Dashboard screenshot
+- dashboard screenshot
 
 ## Author
 Piyush Udapurkar
